@@ -77,7 +77,7 @@ public class Employee {
                     pst.setString(3, mobile);
                     pst.executeUpdate();
                     JOptionPane.showMessageDialog(null, "Record Addedddd!!!!!");
-                    //table_load();
+                    table_load();
                     txtName.setText("");
                     txtsalary.setText("");
                     txtmobile.setText("");
